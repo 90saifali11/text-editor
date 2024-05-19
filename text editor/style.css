@@ -1,0 +1,280 @@
+
+body {
+    background: linear-gradient(to right, #2430db, #feb47b); /* Example gradient */
+    color: white; /* Adjust text color to contrast with the gradient */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    padding: 10px;
+   
+}
+.toolbar{
+    min-width: 100px ;
+}
+.toolbar, .dropdown {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+
+* Headings container */
+.headings {
+    position: relative;
+    display: inline-block;
+}
+
+/* Main dropdown button */
+.headings .dropbtn {
+    background: white;
+    color: #ff7e5f;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.headings .dropbtn:hover {
+    background-color: #feb47b;
+    color: white;
+}
+
+/* Dropdown menu container */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    flex-direction: column;
+    padding: 0;
+}
+
+/* Dropdown menu buttons */
+.dropdown-content button {
+    width: 100%;
+    text-align: left;
+    padding: 12px 16px;
+    background: white;
+    border: none;
+    color: #ff7e5f;
+    font-size: 16px;
+    border-radius: 0;
+    margin: 0;
+}
+
+.dropdown-content button:hover {
+    background-color: #feb47b;
+    color: white;
+}
+
+/* Show the dropdown menu on hover */
+.headings:hover .dropdown-content {
+    display: flex;
+}
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Font container */
+.font {
+    position: relative;
+    display: inline-block;
+}
+
+/* Main dropdown button */
+.font .dropbtn {
+    background: white;
+    color: #ff7e5f;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.font .dropbtn:hover {
+    background-color: #feb47b;
+    color: white;
+}
+
+/* Dropdown menu container */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    flex-direction: column;
+    padding: 0;
+}
+
+/* Dropdown menu buttons */
+.dropdown-content button {
+    width: 100%;
+    text-align: left;
+    padding: 12px 16px;
+    background: white;
+    border: none;
+    color: #ff7e5f;
+    font-size: 16px;
+    border-radius: 0;
+    margin: 0;
+}
+
+/* Apply specific fonts to each button */
+.dropdown-content button:nth-child(1) {
+    font-family: 'Sailec Light', serif;
+}
+.dropdown-content button:nth-child(2) {
+    font-family: 'Sofia Pro', sans-serif; /* Example substitute */
+}
+.dropdown-content button:nth-child(3) {
+    font-family: 'Slabo 13px', serif;
+}
+.dropdown-content button:nth-child(4) {
+    font-family: 'Roboto Slab', serif;
+}
+.dropdown-content button:nth-child(5) {
+    font-family: 'Inconsolata', monospace;
+}
+.dropdown-content button:nth-child(6) {
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+.dropdown-content button:hover {
+    background-color: #feb47b;
+    color: white;
+}
+
+/* Show the dropdown menu on hover */
+.font:hover .dropdown-content {
+    display: block;
+}
+
+
+
+button {
+    border: none;
+    background: white;
+    color: #ff7e5f; /* Adjust button color to match the gradient */
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 5px;
+}
+
+button:hover {
+    background: #feb47b; /* Adjust hover color to match the gradient */
+    color: white;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.8);
+    z-index: 1;
+}
+
+.dropdown-content img {
+    height: 15px;
+    margin: 0 auto;
+    display: block;
+    padding: 9px;
+}
+.dropdown-content button {
+    height: 35px;
+    margin: 0 auto;
+    display: block;
+    padding: 9px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #feb47b; /* Adjust hover background to match the gradient */
+    color: white;
+}
+
+#input {
+    display: block;
+width: 90%;
+height: 350px;
+padding: 10px;
+outline: none;
+border-radius: 3px;
+resize: vertical;
+    border: none;
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+}
+.big { font-size: 32px; }
+.subHeading { font-size: 24px; }
+.normal { font-size: 16px; }
+
+
+.SailecLight {
+    font-family: 'Sailec Light', serif;
+}
+.RobotoSlab{
+    font-family: 'Roboto Slab', serif;
+}
+.SofiaPro {
+    font-family: 'Sofia Pro', sans-serif; /* Example substitute */
+}
+.Slabo13px{
+    font-family: 'Slabo 13px', serif;
+}
+.Inconsolata {
+    font-family: 'Inconsolata', monospace;
+}
+.UbuntuMono {
+    font-family: 'Ubuntu Mono', monospace;
+}
+.bold{
+    font-weight: bold;
+}
+.italic{
+    font-style: italic;
+}
+.underLine{
+   text-decoration: underline;
+}
+.numLst{
+   list-style-type: decimal;
+}
+
+.dotLst{
+    list-style-type: circle;
+}
+.alignRight{
+    text-align: right;
+}
+.alignLeft{
+    text-align: left;
+}
+.justify{
+text-align: center;
+}
